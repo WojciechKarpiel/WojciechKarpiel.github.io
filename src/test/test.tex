@@ -1,0 +1,31 @@
+% to w założeniu ma się skompilować Heveą, zwykły pdftex nie przejdzie
+\documentclass[10pt,a4paper,utf8]{article}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+\renewcommand{\contentsname}{Spis treści}
+
+\begin{document}
+
+\title{Testowe coś}
+\date{1 IV 2020r}
+\author{Ziom}
+\maketitle
+\tableofcontents
+\section{Wstęp}\label{sec:wstep}
+No elo ziomeczki\footnote{i resztę też witam}.
+Jak tam u was? \\
+\subsection{pod}
+Kompilowane  \href{http://hevea.inria.fr/}{Heveą}. wynik: \href{../../index.html}{qwerty} \url{../../index.html}
+\subsubsection{xD}
+łąœðπ©ęþŋ→ß’–©œ→
+\section{Zakończenie}\label{sec:zakonczenie}
+No to na
+\( \frac{a}{b} = \Pi_{(x : A)}{B(x)}^2 \)
+razie!
+\[
+\frac{a}{b} = \Pi_{(x : A)}{B(x)}^2
+\]
+papa, początek był tu: \ref{sec:wstep}. Albo inaczej: \hyperref[sec:wstep]{inaczej \ref{sec:wstep} }.
+\end{document}
