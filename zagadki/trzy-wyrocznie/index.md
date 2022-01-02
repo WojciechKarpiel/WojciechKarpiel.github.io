@@ -2,9 +2,11 @@
 
 Sprytny Stanisław wkraczając do Magicznego Miasta spotkał trzech ludzi oraz Wróżkę Weronikę.
 Wróżka wytłumaczyła Stanisłałowi, że ma przed sobą:
+
 * Prawdomównego Przemysława, który zawsze mówi prawdę,
 * Kłamliwego Kamila, który zawsze kłamie,
 * Zjaranego Zenona, który nie ogarnia i losowo odpowiada "tak" lub "nie" na pytania.
+
 Powiedziała mu że ci trzej panowie umieją się nawzajem rozpoznać,
 ale nie powiedziała który jest który. Stanisław chciał kogoś poznać, ale gardził narkomanami,
 więc musiał rozpoznać kto na pewno nie jest Zjaranym Zenonem.
