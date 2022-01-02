@@ -1,0 +1,20 @@
+Król Maciuś I postanowił wybudować nieskończenie wielki pałac.
+W nieskończenie wielkim pałacu miała być nieskończenie wielka sala balowa, której nieskończenie wielka ściana miała być pokryta w całości mozajką.
+Mozajka miała się składać z kwadratowych, ściśle do siebie przylegających elementów o jednakowych rozmiarach. Król Maciuś uznał, że kwadraciki, z których składa się mozajka mogą być albo jaskrawo zielone, albo jaskrawo pomarańczowe, jak kamizelki odblaskowe.
+Dodatkowo, żadne cztery elementy, które stanowią narożniki (wierzchołki) większego kwadratu, nie mogą być wszystkie w tym samym kolorze. Mowa tylko o kwadratach, których boki są równoległe do podłogi. Na przykład:
+
+PPP
+ZZZ
+PPP
+
+taki układ elementów jest niedozwolony, bo narożne pomarańczowe elementy stanowią narożniki większego kwadratu 3x3.
+Można podmienić jeden z pomarańczowych elementów na zielony, aby uprawilnić układ:
+
+PPZ
+ZZZ
+PPP
+
+Król Maciuś zlecił zadanie zaprojektowania mozaiki nadwornemu ogarniaczowi mozaiek, Przemkowi.
+Czy jest możliwe, żeby Przemek podołał zadaniu?
+Jeśli tak, to jak może wyglądać projekt i jak można udowodnić królowi, że projekt spełnia jego wymagania?
+Jeśli nie, to jak wyjaśnić królowi, że zadanie jest niewykonalne?

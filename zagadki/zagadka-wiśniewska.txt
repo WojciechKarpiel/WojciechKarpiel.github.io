@@ -1,0 +1,12 @@
+Źródło zagadki podam w styczniu, razem z rozwiązaniem.
+
+
+Trzy zaprzyjaźnione małżeństwa spędzały razem wieczór – byli to państwo Kowalscy, Nowakowie i Wiśniewscy. Każdy z mężczyzn jest bratem jednej z kobiet i nie ma innego rodzeństwa; każda z kobiet zaś jest siostrą jednego z mężczyzn i również nie ma innego rodzeństwa. To znaczy, że w grupie są trzy pary rodzeństwa. Każda z pań przejęła też nazwisko po mężu. Znamy następujące fakty:
+
+* Helena jest o dokładnie dwadzieścia sześć tygodni starsza od jej męża, który urodził się w sierpniu.
+* Siostra pana Kowalskiego, która jest żoną szwagra brata Heleny, poślubiła swego męża w dniu swych urodzin w styczniu.
+* Małgorzata Kowalska jest niższa od Wilhelma Nowaka.
+* Siostra Artura jest wyższa od Beaty.
+* Jan w 1918 roku obchodził pięćdziesiąte urodziny.
+
+I oto zagadka: jak ma na imię pani Wiśniewska?

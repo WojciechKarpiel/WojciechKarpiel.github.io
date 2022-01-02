@@ -1,0 +1,27 @@
+Więźniowie, oczekując na przydział liczb, nie mieli pomysłu na rozwiązanie zagadki. Żeby zabić czas grali w zegar.
+Gra w zegar polegała na tym, że każdy z graczy na dwóch karteczkach zapisywał po jednej licznie z przedziału od 0 do 11 włącznie. Jedną karteczkę rzucał na wspólną kupę, a drugą chował do kieszeni. Następnie jeden z graczy brał stary, zepsuty zegar, ustawiał wskazówkę na godzinę 12 (która w tym modelu zagara była podpisana "0") i po kolei przesuwał wskazówkę o tyle godzin, ile było napisane na na karteczkach ze wspólnej kupy.
+Do gry przystąpiło 5 więźniów. Karteczki ze wspólnej kupy zawierały liczby: 5, 6, 3, 0, 11. Paweł wziął stary zegar i przesuwał wskazówki:
+0 + 5 -> 5
+5 + 6 -> 11
+11 + 3 -> 2
+2 + 0 -> 2
+2 + 11 -> 1
+Gaweł zaśmiał się, wyciągnął z kieszeni kartkę z numerem 1 i zakrzyknął:
+- Wygrałem! Może pogramy z naczelnikiem w zegar, tylko nie 12-godzinny, a N-godzinny?
+- Ale jak to? - zapytali pozostali gracze
+- No, każdy z nas dostanie na czoło liczbę z zakresu od 0 do N-1. Każdy będzie mógł wyobrazić sobie N-godzinny zegar i przesuwać jego wskazówki o tyle godzin, ile zobaczy na czołach pozostałych.
+- I co dalej? Nikt nie będzie znał swojego numerku. - zauważył Paweł
+- W takim razie będziemy zgadywać dwie liczby: jedną ze swojego czoła, a drugą z karteczki w swojej kieszeni.
+Więźniowie skiśli słysząc ten pomtsł, gdy do rozmowy dołączył Przemysław:
+- Wystarczy że zgadniemy jedną z tych liczb, drugą będzie dało się policzyć. Na przykład: gdyby było nas pięciu, na waszych czołach widziałbym liczby 4, 2, 3, 3; a w kieszeni miałbym karteczkę z liczbą 1, to liczyłbym:
+0 + 4 -> 4
+4 + 2 -> 1
+1 + 3 -> 4
+4 + 3 -> 2
+i wtedy, żeby końcowy wynik zgadzał się z moją karteczką:
+2 + X -> 1
+musiałbym mieć na czole liczbę 4.
+
+Gaweł podjął Przemkowy tok myślenia i powiedział:
+- Jest nas N, czyli dokładnie tyle, ile godzin na N-godzinnym zegarze. Jeśli każdy będzie miał w kieszeni karteczkę z inną liczbą, to jeden z nas na pewno zgadnie na jakiej godzinie zatrzyma się wskazówka N-godzinnego zegara. Niech każdy policzy jaką liczbę może mieć na czole na podstawie karteczki w swojej kieszeni i liczb na czołach pozostałych. Ktoś na pewno zgadnie!
+- Kaźmierz, Kuba, Marcin: idzcie zwołać wszystkich! Darek, Bartek: przygotujcie N karteczek, każda z inną liczbą od 0 do N-1! - rozkazał Paweł
