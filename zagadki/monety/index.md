@@ -1,3 +1,5 @@
+# O monetach
+
 Przemek ma 12 złotych monet. Jedna z nich jest podrobiona.
 Podrobiona moneta różni się od pozostałych wagą, ale różnica wag jest na tyle mała,
 że potrzeba specjalistycznej wagi żeby wykryć różnicę.
@@ -11,3 +13,7 @@ trzecia - że ciężar na obu szalkach jest równy.
 Niestety, instrukcja jest po chińsku i Przemek nie wie, która dioda jest która.
 
 W jaki sposób Przemek może znaleźć podrobioną monetę, dokonując co najwyżej czterech ważeń?
+
+---
+
+Rozwiązanie i źródło: w lutym 2022
