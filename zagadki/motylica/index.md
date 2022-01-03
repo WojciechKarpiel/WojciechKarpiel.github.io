@@ -11,4 +11,4 @@ i potwór, i przemuś umieją zawracać w miejscu, skręt (nawet o 180 stopni) w
 
 ---
 
-[Rozwiązanie](rozwiązanie/)
+[Rozwiązanie](rozwiazanie/)

@@ -1,5 +1,6 @@
 # Rozwiązanie zagadki o więźniach
 
+<pre>
 Więźniowie, oczekując na przydział liczb, nie mieli pomysłu na rozwiązanie zagadki. Żeby zabić czas grali w zegar.
 Gra w zegar polegała na tym, że każdy z graczy na dwóch karteczkach zapisywał po jednej licznie z przedziału od 0 do 11 włącznie. Jedną karteczkę rzucał na wspólną kupę, a drugą chował do kieszeni. Następnie jeden z graczy brał stary, zepsuty zegar, ustawiał wskazówkę na godzinę 12 (która w tym modelu zagara była podpisana "0") i po kolei przesuwał wskazówkę o tyle godzin, ile było napisane na na karteczkach ze wspólnej kupy.
 Do gry przystąpiło 5 więźniów. Karteczki ze wspólnej kupy zawierały liczby: 5, 6, 3, 0, 11. Paweł wziął stary zegar i przesuwał wskazówki:
@@ -27,3 +28,4 @@ musiałbym mieć na czole liczbę 4.
 Gaweł podjął Przemkowy tok myślenia i powiedział:
 - Jest nas N, czyli dokładnie tyle, ile godzin na N-godzinnym zegarze. Jeśli każdy będzie miał w kieszeni karteczkę z inną liczbą, to jeden z nas na pewno zgadnie na jakiej godzinie zatrzyma się wskazówka N-godzinnego zegara. Niech każdy policzy jaką liczbę może mieć na czole na podstawie karteczki w swojej kieszeni i liczb na czołach pozostałych. Ktoś na pewno zgadnie!
 - Kaźmierz, Kuba, Marcin: idzcie zwołać wszystkich! Darek, Bartek: przygotujcie N karteczek, każda z inną liczbą od 0 do N-1! - rozkazał Paweł
+</pre>
