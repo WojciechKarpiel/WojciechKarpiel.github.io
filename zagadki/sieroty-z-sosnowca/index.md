@@ -1,0 +1,7 @@
+# O Sierotach z Sosnowca
+
+Szalony milioner porwał 8 bezdomnych sierot z ulic Sosnowca, poprzyklejał im na plecach karteczki i poustawiał je na schodkach prowadzących do swojej willi, jedna sierota co 3 stopnie, wszyskie zwrócone plecami do budynku. Te stojące wyżej widziały karteczki na plecach tych stojących niżej, ale nikt nie widział swojej karteczki, ani karteczki na plecach osób stojących wyżej. Milioner powiedział:
+
+- Słuchajcie bulwiaki! Dam wam pieniądze. Wchodząc po schodach, napiszę każdemu na karteczce na plecach "X" albo "D". Potem będę schodził z góry na dół i pytał każdego po kolei co ma napisane na plecach. Jeśli ktoś odpowie poprawnie, to dopiszę 100 dogecoin'ów do puli nagród, którą na końcu rozdzielę wam po równo. Możecie teraz przez 793840 milisekund porozmawiać i ustalić strategię, potem będziecie mogli odpowiedzieć tylko "X" albo "D", gdy będę zadawał pytanie o napis na karteczce.
+
+Jaką strategię powinny przyjąć sieroty, żeby dostać jak najwięcej pieniędzy?
