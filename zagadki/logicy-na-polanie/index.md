@@ -13,4 +13,4 @@ Podpowiedź: odpowiedź "nikt nigdy nie opuści polany" jest błędna.
 
 ---
 
-[rozwiązanie i źródło](rozwiazanie)
+[rozwiązanie i źródło](rozwiazanie/)

@@ -2,7 +2,7 @@
 
 * [O Pawle i Gawle w więzieniu](pawel-i-gawel/)
 * [O zjaranym Zenonie](trzy-wyrocznie/)
-* [O monetach](monety)
+* [O monetach](monety/)
 * [O logikach na polanie](logicy-na-polanie/)
 * [O ludzkiej motylicy](motylica/)
 * [O Tibii](tibia/)

@@ -17,4 +17,4 @@ kto nie jest Zjaranym Zenonem to da mu lody.
 
 ---
 
-[Źródło i rozwiązanie](rozwiazanie)
+[Źródło i rozwiązanie](rozwiazanie/)
