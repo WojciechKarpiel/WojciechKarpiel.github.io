@@ -5,16 +5,15 @@
 1. Kazać każdemu ze sług pić z tych beczek, gdzie na pozycji odpowiadającej numerkowi sługi znajduje się "1" w zapisie dwójkowym numeru beczki
 1. Numerki sług, którzy umrą wskażą, na których pozycjach w zapisie dwójkowym numeru zatrutej beczki znajduje się "1"
 
-Przykład:
+## Przykład:
 
 Beczka o numerze 723 będzie miała napisane "1011010011".
 A zatem z tej beczki będą pili słudzy o numerach
 1, 2, 5, 7, 8, 10.
 
-     1011010011
-     ^ ^^ ^  ^^
-     | || |  ||
-    10 87 5  21
+     1 0 1 1 0 1 0 0 1 1
+     ^   ^ ^   ^     ^ ^
+    10   8 7   5     2 1
 
 Jeśli umrą właśnie ci słudzy, to znaczy, że beczka 723 była zatruta,
 gdyż jest jedyną beczką, z której pili tylko oni i nikt inny.
