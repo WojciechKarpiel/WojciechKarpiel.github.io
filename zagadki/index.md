@@ -8,5 +8,6 @@
 * [O Tibii](tibia/)
 * [O Sebie i Karynce](seba-i-karynka/)
 * [O sierotach z Sosnowca](sieroty-z-sosnowca/)
+* [O zatrutym winie](zatrute-wino/)
 
 Żadna z powyższych zagadek nie jest moja. Gdzie znam źródło, to podałem je przy rozwiązaniu.
