@@ -11,3 +11,7 @@
 * [O zatrutym winie](zatrute-wino/)
 
 Żadna z powyższych zagadek nie jest moja. Gdzie znam źródło, to podałem je przy rozwiązaniu.
+
+---
+
+[powrót](../)

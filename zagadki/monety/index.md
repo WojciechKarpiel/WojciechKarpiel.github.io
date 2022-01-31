@@ -16,4 +16,6 @@ W jaki sposób Przemek może znaleźć podrobioną monetę, dokonując co najwy�
 
 ---
 
-Rozwiązanie i źródło: w lutym 2022
+[Rozwiązanie i źródło](rozwiazanie/)
+
+[Powrót](../)
