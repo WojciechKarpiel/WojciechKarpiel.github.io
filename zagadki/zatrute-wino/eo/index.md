@@ -7,7 +7,7 @@ Lia spionoj raportis, ke unu el la bareloj
 estis venentita.
 La veneno funkcias malrapide, ĝi aktiviĝas
 semanjo post trinkado.
-La reĝo nun povas ordoni at siaj servistoj
+La reĝo nun povas ordoni al siaj servistoj
 trinki el ajna nombro da bareloj.
 Ĝuste antaŭ la edziĝofesto, li
 vidos kiuj mortos, kaj dededuktos
