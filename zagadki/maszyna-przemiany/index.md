@@ -55,5 +55,6 @@ Jak można to wywnioskować?
 
 ---
 
-<!-- [rozwiązanie i źródło](rozwiazanie/) -->
-rozwiązanie i źródło - w sierpniu 2022
+[Rozwiązanie i źródło](rozwiazanie/)
+
+[Powrót](../)
