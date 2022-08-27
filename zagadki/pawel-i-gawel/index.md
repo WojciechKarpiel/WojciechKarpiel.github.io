@@ -8,9 +8,10 @@ Paweł i Gaweł, odsiadujący karę za domową awanturę, dzielili ciasną celę
 Zadanie: Podaj strategię, która gwarantuje, że więźniowie zostaną uwolnieni lub udowodnij, że taka strategia nie istnieje.
 
 Uściślenia:
-* 2020-06-30: w więzieniu jest dokładnie N więźniów
+* w więzieniu jest dokładnie N więźniów
 
 ---
+Znalazłem tę zagadkę na zkserowanym fragmencie kartki, nie wiem skąd pochodzi
 
 [Rozwiązanie słowno-muzyczne](rozwiazanie/)
 
