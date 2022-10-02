@@ -98,7 +98,7 @@ function przygotuj(){
 
 
 var input = document.getElementById('haslo');
-    for (var i = 0; i< LUDZIE.length; i++){
+    for (var i = 0; i< MX; i++){
         var opt = document.createElement('option');
         opt.value = i;
         opt.innerHTML = i;
