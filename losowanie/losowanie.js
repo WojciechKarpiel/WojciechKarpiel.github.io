@@ -3,18 +3,13 @@ var SAGA = "Saga"
 var TOMEK = "Tomek"
 var WOJTEK = "Wojtek"
 var PAULINKA = "Paulinka"
-var KAPUSTA = "Kapusta"
+var KAPUSTA = "Asia"
 var WACEK = "Wacek"
-var LUDZIE = [ ANIA, SAGA, TOMEK, WOJTEK, PAULINKA , KAPUSTA, WACEK]
-var MX = (function(){
-    var i=1;
-    while (i < LUDZIE.length){
-        i=i*2;
-    }
-    return i;
-})()
-var WYLOSOWANE = 
- "eyIwIjowLCIxIjo1LCIyIjoyLCIzIjowLCI0Ijo1LCI1Ijo1LCI2IjozfQ=="
+var JUSTYNA = "Justyna"
+var JAMA = "Jama"
+var LUDZIE = [ ANIA, SAGA, TOMEK, WOJTEK, PAULINKA , KAPUSTA, WACEK, JUSTYNA , JAMA]
+var MX = LUDZIE.length
+
 
 var ZAKAZANE_PARY = {}
 function dodaj_zakaz(osoba1, osoba2) {
@@ -22,7 +17,7 @@ function dodaj_zakaz(osoba1, osoba2) {
     ZAKAZANE_PARY[osoba2] = osoba1
 }
 
-//dodaj_zakaz(ANIA, JAMA)
+dodaj_zakaz(ANIA, JAMA)
 dodaj_zakaz(SAGA, TOMEK)
 
 
@@ -54,7 +49,7 @@ function wylosuj_spoko(){
     var i = 0
     var HASLA = {}
     for(i=0;i<LUDZIE.length;i++){
-        HASLA[LUDZIE[i]] = Math.floor(Math.random() * MX); 
+        HASLA[LUDZIE[i]] = Math.floor(Math.random() * LUDZIE.length); 
     }
     i =0;
     while(true){
@@ -78,11 +73,11 @@ function wylosuj_spoko(){
 
 
 function zaszyfruj(numerek, haslo){
-    return numerek ^ haslo;
+    return (numerek + (LUDZIE.length - haslo) ) % LUDZIE.length;
 }
 
 function odszyfruj(numerek, haslo){
-    return numerek ^ haslo;
+    return (numerek + haslo) % LUDZIE.length;
 }
 
 function przygotuj(){
@@ -98,7 +93,7 @@ function przygotuj(){
 
 
 var input = document.getElementById('haslo');
-    for (var i = 0; i< MX; i++){
+    for (var i = 0; i< LUDZIE.length; i++){
         var opt = document.createElement('option');
         opt.value = i;
         opt.innerHTML = i;
@@ -141,6 +136,16 @@ function kogo_ogar(){
             }
         } catch(error){
             wynik.innerHTML="Coś się zepsuło. Czy hasło jest dobre?"
+        }
+    }
+}
+
+function haslo_git(){
+    for(var i=0;i<LUDZIE.length;i++){
+        for (var j=0; j<LUDZIE.length;j++){
+            var z = zaszyfruj(i,j)
+            var o = odszyfruj(z,j)
+            console.log((i===o) + " "+  i + " " + j + " " + z + " " + o  )
         }
     }
 }
