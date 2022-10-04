@@ -7,7 +7,8 @@ var KAPUSTA = "Asia"
 var WACEK = "Wacek"
 var JUSTYNA = "Justyna"
 var JAMA = "Jama"
-var LUDZIE = [ ANIA, SAGA, TOMEK, WOJTEK, PAULINKA , KAPUSTA, WACEK, JUSTYNA , JAMA]
+var BARTEK = "Bartek"
+var LUDZIE = [ ANIA, SAGA, TOMEK, WOJTEK, PAULINKA , KAPUSTA, WACEK, JUSTYNA , JAMA, BARTEK]
 var MX = LUDZIE.length
 
 
@@ -19,6 +20,7 @@ function dodaj_zakaz(osoba1, osoba2) {
 
 dodaj_zakaz(ANIA, JAMA)
 dodaj_zakaz(SAGA, TOMEK)
+dodaj_zakaz(JUSTYNA, BARTEK)
 
 
 function dobra_permutacja(permutacja) {
