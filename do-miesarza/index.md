@@ -9,8 +9,6 @@
   Twoje marzenia, pomysły i umiejętności też przeminęły. Obecne też umrą.
   Umieranie nie jest niczym nowym.
 
-Utrzymuj porządek we własnych myślach - to zadanie istoty świadomej.
-
 Śmieszny mięsarzu, kochaj wyrozumiale (ϕιλοστοργία) pozostałych mięsarzy.
 Sam [jesteś gorszy](../przegryw/).
 
