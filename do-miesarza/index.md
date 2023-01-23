@@ -9,10 +9,19 @@
   Twoje marzenia, pomysły i umiejętności też przeminęły. Obecne też umrą.
   Umieranie nie jest niczym nowym.
 
-Śmieszny mięsarzu, kochaj wyrozumiale (ϕιλοστοργία) pozostałych mięsarzy.
-Sam [jesteś gorszy](../przegryw/).
+---
 
-xD
+<a href="https://pixeljoint.com/pixelart/89268.htm">
+  <img src="https://pixeljoint.com/files/icons/full/adeptusmechanicus.png" alt="Adeptus Mechanicus">
+</a>
+
+There is no truth in flesh, only betrayal.  
+There is no strength in flesh, only weakness.  
+There is no constancy in flesh, only decay.  
+There is no certainty in flesh but death.  
+— [Credo Omnissiah](https://warhammer40k.fandom.com/wiki/Adeptus_Mechanicus)
+</div>
 
 ---
+
 [powrót](../)
