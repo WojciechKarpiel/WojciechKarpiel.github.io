@@ -10,6 +10,7 @@
 * [O sierotach z Sosnowca](sieroty-z-sosnowca/)
 * [O zatrutym winie](zatrute-wino/) ([esperante](zatrute-wino/eo/))
 * [O maszynie przemiany](maszyna-przemiany/)
+* [O piratach](piraci/)
 
 Żadna z powyższych zagadek nie jest moja. Gdzie znam źródło, to podałem je przy rozwiązaniu.
 
