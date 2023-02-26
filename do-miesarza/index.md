@@ -9,6 +9,8 @@
   Twoje marzenia, pomysły i umiejętności też przeminęły. Obecne też umrą.
   Umieranie nie jest niczym nowym.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9gIMZ0WyY88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 <a href="https://pixeljoint.com/pixelart/89268.htm">
