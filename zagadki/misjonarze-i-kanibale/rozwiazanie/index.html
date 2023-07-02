@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>O misjonarzach i kanibalach - rozwiązanie</title>
+    <link rel="stylesheet" href="../../../css.css">
+  </head>
+  <body>
+    <h1>Rozwiazanie</h1>
+    <div>
+      Oznaczmy misjonarzy M<sub>1</sub>, M<sub>2</sub> i M<sub>3</sub>,
+      a kanibali K<sub>1</sub>, K<sub>2</sub> i K<sub>3</sub>.
+    </div>
+    <ol>
+      <li> Stan początkowy
+        <ul>
+          <li>Brzeg A: M1, M2, M3, K1, K2, K3, łódka</li>
+          <li>Brzeg B: nikt</li>
+        </ul>
+      </li>
+      <li> M1 i K1 płyną na brzeg B
+        <ul>
+          <li>Brzeg A: M2, M3, K2, K3</li>
+          <li>Brzeg B: M1, K1, łódka</li>
+        </ul>
+      </li>
+      <li>M1 wraca na brzeg A
+        <ul>
+          <li>Brzeg A: M1, M2, M3, K2, K3, łódka</li>
+          <li>Brzeg B: K1</li>
+        </ul>
+      </li>
+      <li>K2 i K3 płyną na drugi brzeg
+        <ul>
+          <li>Brzeg A: M1, M2, M3</li>
+          <li>Brzeg B: K1, K2, K3, łódka</li>
+        </ul>
+      </li>
+      <li>K1 wraca na brzeg A
+        <ul>
+          <li>Brzeg A: M1, M2, M3, K1, łódka</li>
+          <li>Brzeg B: K2, K3</li>
+        </ul>
+      </li>
+      <li>M2 i M3 płyną na przeg B
+        <ul>
+          <li>Brzeg A: M1, K1</li>
+          <li>Brzeg B: M2, M3, K2, K3, łódka</li>
+        </ul>
+      </li>
+      <li>M2 i K2 wracają na brzeg A
+        <ul>
+          <li>Brzeg A: M1, M2, K1, K2, łódka</li>
+          <li>Brzeg B: M3, K3</li>
+        </ul>
+      </li>
+      <li>M1 i M2 płyną na brzeg B
+        <ul>
+          <li>Brzeg A: K1, K2</li>
+          <li>Brzeg B: M1, M2, M3, K3, łódka</li>
+        </ul>
+      </li>
+      <li>K3 wraca na brzeg A
+        <ul>
+          <li>Brzeg A: K1, K2, K3, łódka</li>
+          <li>Brzeg B: M1, M2, M3</li>
+        </ul>
+      </li>
+      <li>K1 i K3 płyną na brzeg B
+        <ul>
+          <li>Brzeg A: K2</li>
+          <li>Brzeg B: M1, M2, M3, K1, K3, łódka</li>
+        </ul>
+      </li>
+      <li>K3 wraca na brzeg A
+        <ul>
+          <li>Brzeg A: K1, K2, łódka</li>
+          <li>Brzeg B: M1, M2, M3, K1</li>
+        </ul>
+      </li>
+      <li>K2 i K3 płyną na brzeg B
+        <ul>
+          <li>Brzeg A: nikt</li>
+          <li>Brzeg B: M1, M2, M3, K1, K2, K3, łódka</li>
+        </ul>
+      </li>
+    </ol>
+    <hr />
+    <div>
+      Źródło: Marek Hermann, "O łacinie tylko dobrze", rozdział "Aenigmata (zagadki)"
+    </div>
+    <div>
+      <a href="../">Powrót</a>
+    </div>
+  </body>
+</html>

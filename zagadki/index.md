@@ -11,6 +11,7 @@
 * [O zatrutym winie](zatrute-wino/) ([esperante](zatrute-wino/eo/))
 * [O maszynie przemiany](maszyna-przemiany/)
 * [O piratach](piraci/)
+* [O misjonarzach i kanibalach](misjonarze-i-kanibale/)
 
 Żadna z powyższych zagadek nie jest moja. Gdzie znam źródło, to podałem je przy rozwiązaniu.
 
