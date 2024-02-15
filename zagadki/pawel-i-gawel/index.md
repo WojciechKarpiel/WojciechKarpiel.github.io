@@ -15,4 +15,4 @@ Znalazłem tę zagadkę na zkserowanym fragmencie kartki, nie wiem skąd pochodz
 
 [Rozwiązanie słowno-muzyczne](rozwiazanie/)
 
-[Formalny dowód poprawności rozwiązania](https://notabug.org/WojciechKarpiel/wiezniowie)
+[Formalny dowód poprawności rozwiązania](https://github.com/WojciechKarpiel/wiezniowie)
