@@ -43,13 +43,10 @@ przesyłania Jednolitych Plików Kontrolnych (JPK) do systemu Ministerstwa Finan
 * [GOV: Jakie składki na ubezpieczenia społeczne płaci przedsiębiorca do ZUS](https://www.biznes.gov.pl/pl/portal/00274)
 * [GOV: ile wynosi składka zdrowotna](https://www.biznes.gov.pl/pl/portal/001052) - Przedsiębiorcy opłacający ryczałt od przychodów ewidencjonowanych mogą odliczyć od przychodu 50% zapłaconych składek zdrowotnych.
 * [ZUS - kalkulator składki zdrowotnej](https://www.zus.pl/firmy/przedsiebiorco-przeczytaj-wazne/kalkulator-skladki-zdrowotnej)
-
-Biznes.gov.pl (bardzo fajnie opisane poradniki jak na stronę rządową):
-
 * [GOV: Ryczałt od przychodów ewidencjonowanych](https://www.biznes.gov.pl/pl/portal/00263)
     * PKD 62.01.Z jest 12% ryczałtem
 * [GOV: Jak prawidłowo rozliczyć VAT](https://www.biznes.gov.pl/pl/portal/00232)
-* [GOV: Jak odliczyć składki ZUS przy rozliczaniu podatków](https://www.biznes.gov.pl/pl/portal/00230)
+* [GOV: Jak odliczyć składki ZUS przy rozliczaniu podatków](https://www.biznes.gov.pl/pl/portal/00230) - Składki na ubezpieczenia społeczne: emerytalne, rentowe, chorobowe i wypadkowe możesz odliczyć przy rozliczeniu podatku dochodowego i obniżyć w ten sposób kwotę daniny. Z kolei składki na fundusze pozaubezpieczeniowe: Fundusz Pracy i Fundusz Solidarnościowy możesz zaliczyć do kosztów uzyskania przychodów (tzn nie dotyczy ryczałtu)
 * [GOV: Odliczenie i zwrot podatku od towarów i usług – kiedy urząd zwróci nadwyżkę VAT](https://www.biznes.gov.pl/pl/portal/00249)
 
 poradnikprzedsiebiorcy:
