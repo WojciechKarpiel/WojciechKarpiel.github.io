@@ -20,7 +20,7 @@ jest niższy niż przy innych formach opodatkowania.
 
 * VAT - choć jeśli dużo kupujesz, to ryczałt może być nieopłacalny.
 [Odliczenie polega na tym, że od VAT należnego (wynikającego z faktur sprzedażowych, który należy wpłacić do urzędu skarbowego), możesz odliczyć VAT naliczony (wynikający z faktur zakupowych).](https://www.biznes.gov.pl/pl/portal/00249)
-* składki ZUS. [Jeśli rozliczasz się ryczałtem, składki na własne ubezpieczenia społeczne możesz odliczyć wyłącznie od przychodu, pomniejszając w ten sposób podstawę opodatkowania]((https://www.biznes.gov.pl/pl/portal/00230))
+* składki ZUS. [Jeśli rozliczasz się ryczałtem, składki na własne ubezpieczenia społeczne możesz odliczyć wyłącznie od przychodu, pomniejszając w ten sposób podstawę opodatkowania]((https://www.biznes.gov.pl/pl/portal/00230)), ale nie fundusz społeczny i solidarnościowy
 
 ## PKD
 
@@ -40,6 +40,8 @@ Obie są na [12-procentowym ryczałcie](https://www.biznes.gov.pl/pl/portal/0026
 * [GOV: e-urząd skarbowy](https://urzadskarbowy.gov.pl/)
 * [GOV: e-mikrofirma](https://e-mikrofirma.mf.gov.pl/) - rządowe narzędzie do
 przesyłania Jednolitych Plików Kontrolnych (JPK) do systemu Ministerstwa Finansów.
+* [GOV: Jakie składki na ubezpieczenia społeczne płaci przedsiębiorca do ZUS](https://www.biznes.gov.pl/pl/portal/00274)
+* [GOV: ile wynosi składka zdrowotna](https://www.biznes.gov.pl/pl/portal/001052) - Przedsiębiorcy opłacający ryczałt od przychodów ewidencjonowanych mogą odliczyć od przychodu 50% zapłaconych składek zdrowotnych.
 * [ZUS - kalkulator składki zdrowotnej](https://www.zus.pl/firmy/przedsiebiorco-przeczytaj-wazne/kalkulator-skladki-zdrowotnej)
 
 Biznes.gov.pl (bardzo fajnie opisane poradniki jak na stronę rządową):
