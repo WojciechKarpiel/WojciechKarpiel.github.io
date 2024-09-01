@@ -12,6 +12,7 @@
 * [O maszynie przemiany](maszyna-przemiany/)
 * [O piratach](piraci/)
 * [O misjonarzach i kanibalach](misjonarze-i-kanibale/)
+* [O nieskończonym bogactwie](nieskonczone-bogactwo/)
 
 Żadna z powyższych zagadek nie jest moja. Gdzie znam źródło, to podałem je przy rozwiązaniu.
 
