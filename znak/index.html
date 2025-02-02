@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Znak</title>
+    <meta charset="utf-8">
+    <meta name="color-scheme" content="light dark">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css" />
+</head>
+
+<body>
+    <header class="container">
+        <h1>BETA: tłumacz zapisów j. polskiego</h1>
+    </header>
+
+    <main class="container">
+
+        <div id="app-lat">
+            <label for="latin-input">zwykły polski do greckiego polskiego</label><input type="text" id="latin-input"
+                placeholder="Litwo, ojczyzno moja! Ty jesteś jak zdrowie!">
+        </div>
+        <article>
+            <div id="latin-to-greek-res">
+            </div>
+        </article>
+        <div id="app-gr">
+            <label for="greek-input">grecki polski do zwykłego polskiego</label><input type="text" id="greek-input">
+        </div>
+        <article>
+            <div id="greek-to-latin-res">
+            </div>
+        </article>
+    </main>
+    <footer class="container">
+        <small><a href="https://www.wojciechkarpiel.pl/">WK</a> • <a href="https://picocss.com">Pico</a></small>
+    </footer>
+
+    <script>
+        (function () {
+            var inp = document.getElementById("latin-input")
+            inp.addEventListener('change', function () {
+                document.getElementById("latin-to-greek-res").innerText = standardToGreek(inp.value)
+            })
+        })();
+
+        (function () {
+            var inp = document.getElementById("greek-input")
+            inp.addEventListener('change', function () {
+                document.getElementById("greek-to-latin-res").innerText = greekToStandard(inp.value)
+            })
+        })()
+    </script>
+
+</body>
+
+</html>
