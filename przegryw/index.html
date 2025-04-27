@@ -81,6 +81,20 @@
       </ul>
     </div>
     <hr />
-    <a href="../">Powrót</a>
+    <!-- 
+    στρονα έστ δοστηπνα ζ dumaprzegrywu.pl ί πρέζ wojciechkarpiel.pl/przegryw
+    ποτρέμπυή τυτα´ βεζποσ´ρεδν´εγο οδνέσένά, ξεμπι νέ μπιλο προμπλέμυβ ζ βζγλήδνιμί στέξκαμί
+    server {
+      listen 40436 default_server;
+      server_name dumaprzegrywu.pl;
+      location = /css.css {
+        proxy_pass https://www.wojciechkarpiel.pl/css.css;
+      }
+      location / {
+        proxy_pass https://www.wojciechkarpiel.pl/przegryw$request_uri;
+      }
+    } 
+    -->
+    <a href="https://www.wojciechkarpiel.pl/">Powrót</a>
   </body>
 </html>
