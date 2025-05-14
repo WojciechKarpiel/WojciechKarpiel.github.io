@@ -1,4 +1,6 @@
-# PRZYPOMNIENIE POSTACI:
+# SESJA 1 - PRZYPOMNIENIE
+
+## PRZYPOMNIENIE POSTACI:
 
 Wasza ekipa to różnorodna mieszanka ludzi, z fundamentalnie różnymi podejściami do życia. Łączyły was przede wszystkim interesy, a mimo to zdażało się, że ryzykowaliście swoim życiem dla siebie nawzajem.
 
@@ -12,7 +14,7 @@ Richie, Texański kurier, jest na swój sposób anytezą Lukasa - jego zawód na
 
 Mallgar, zabójca maszyn z Posterunku, to tajemnicza postać. Wątłej postury, wydawałoby się, że nie udżwignie karabinu, a jednak udowodnił, że jest strzelcem wyborowym.
 
-# WYDARZENIA POPRZEDNIEJ SESJI:
+## WYDARZENIA POPRZEDNIEJ SESJI:
 
 Wszystko zaczęło się w barze "Rozpity Atom" w Vegas. Jean poprosił was, jako z jednej strony specjalistów w swoim fachu, a z drugiej strony ludzi, którzy byli osobiście zobowiązani mu pomóc, abyście przyszli z nim na spotkanie z przedstawicielem Warmaru. Warmar to organizacja związana z Posterunkiem, zajmująca się logistyką i zaopatrzeniem Posterunku. Działa z dala od frontu, a ostatnimi czasy próbuje uruchomić stałą placówkę przy Vegas.
 
