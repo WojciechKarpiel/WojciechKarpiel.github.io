@@ -31,3 +31,7 @@ Znaleźliście docelowe miejsce - Warmar zagnieździł się w magazynach przy by
 Rozejrzeliście się i doszliście do wniosków, że ktokolwiek to zrobił, wiedział co robi, i musiał obserwować magazyn, czekając na okazję. Jednyna poszlaka jaką znaleźliście, to niebieskawe igiełki pochodzące z rzadkiego w tych okolicach drzewa (jałowca skalnego). Widzieliście takie drzewa wjeżdżając do Bunkerville i z braku lepszego pomysłu pojechaliście obadać tamtą okolicę. Między drzewami znaleźliście ścieżkę prowadzącą w las, na końcu której był budynek przypominający magazyn.
 
 Postanowiliście zaatakować magazyn. Bezpośredni szturm uznaliście za zbyt ryzykowny. Uzgodniliście plan, który zakładał, że spróbujecie wywabić ludzi z magazynu na zewnątrz. Niestety strzelec wyborowy nie wytrzymał i strzelił zanim człowiek z wnętrza wyszedł na zewnątrz. Znaleźliście się w ciężkim położeniu taktycznym - ludzie w środku zrozumieli co się święci zanim wparowaliście do środka. Szybko myślący Jean zdecydował się podjąć ryzyko i natychmiast wbiec do środka - prawie przypłacił to życiem, lecz dał wam otwarcie, które pozwoliło wam przypuścić bezpośredni szturm. Po krótkiej strzelaninie otoczyliście ostatniego żywego przeciwnika, który poddał się i rzucił broń.
+
+---
+
+[powrót](../)
