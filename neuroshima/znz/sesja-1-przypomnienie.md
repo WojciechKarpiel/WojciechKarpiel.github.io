@@ -34,4 +34,4 @@ Postanowiliście zaatakować magazyn. Bezpośredni szturm uznaliście za zbyt ry
 
 ---
 
-[powrót](../)
+[powrót](./)

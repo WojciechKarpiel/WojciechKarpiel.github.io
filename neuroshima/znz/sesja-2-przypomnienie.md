@@ -28,4 +28,4 @@ W środku zastaliście równie przerażający co niesamowity widok - wielkie pom
 
 ---
 
-[powrót](../)
+[powrót](./)
