@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Maszyna przemiany</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Maszyna przemiany</h1>
+</header>
+<p>Wynalazczy Wacław zbudował Maszynę Przemiany. Maszyna ma 2 komory
+wejściowe, dźwignię i komorę wyjściową. Po włożeniu przedmiotów do komór
+wejściowych i naciśnięciu dźwigni, przedmioty z komór wejściowej
+znikają, w komorze wyjściowej pojawia się nowy przedmiot. Jaki przedmiot
+się pojawi w komorze wyjściowej zależy od przedmiotów w komorach
+wejściowych. Na przykład, gdy do lewej komory włoży się gruszkę, do
+prawej komory włoży się skarpetkę, to w komorze wyjściowej pojawi się
+model rakiety Ariane 6 w skali 1:600 - i stanie się tak za każdym razem,
+gdy w lewej komorze będzie gruszka, a w prawej skarpetka.</p>
+<p>Uważna Urszula zauważyła ciekawą właśność: jeżli do lewej komory
+wstawi się przedmiot typu A, a do prawej komory przedmiot typu B i
+pociągnie za dźwignię, a potem wynik przemiany wstawi się do lewej
+komory, a do prawej kolejny przedmiot typu B, to w wyniku przemiany
+dostanie się przedmiot typu A. Na przykład, jeśli do lewej komory wstawi
+się model rakiety Ariane 6, a do prawej komory skarpetkę, to otrzyma się
+gruszkę.</p>
+<pre>
+A B
+| |
++-+
+|
+v
+X B
+| |
++++
+ |
+ v
+ A
+</pre>
+<p>Podobna własność zachodzi też w drugą stronę:</p>
+<pre>
+B A
+| |
++-+
+  |
+  v
+B Y
+| |
++++
+ |
+ v
+ A
+</pre>
+<p>Logiczny Leszek stwierdził, że przedmioty w komorach wejściowych
+można zamieniać miejscami, i nie ma to wpływu na przedmiot wynikowy. Na
+przykład, gdyby do lewej komory wstawić skarpetkę, a do prawej gruszkę,
+to również otrzymałoby się model rakiety Ariane 6.</p>
+<pre>
+A B  B A
+| |  | |
++++  +++
+ |    |
+ v    V
+ X    X
+</pre>
+<p>Jak można to wywnioskować?</p>
+<hr />
+<p><a href="rozwiazanie/">Rozwiązanie i źródło</a></p>
+<p><a href="../">Powrót</a></p>
+</body>
+</html>

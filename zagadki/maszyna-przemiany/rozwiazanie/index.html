@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Rozwiązanie</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Rozwiązanie</h1>
+</header>
+<p>Maszynę Przemiany można zamodelować jako dwuargumentowe działanie,
+nazwijmy je “⚘”. Wtedy obserwacje Uważnej Urszuli można zapisać
+jako:</p>
+<ol type="1">
+<li>∀ x, y : (x ⚘ y) ⚘ y = x</li>
+<li>∀ x, y : y ⚘ (y ⚘ x) = x</li>
+</ol>
+<p>A wniosek Logicznego Leszka to twierdzenie: “działanie ‘⚘’ jest
+przemienne”:</p>
+<p>∀ x, y : x ⚘ y = y ⚘ x</p>
+<p>Żeby nie pomieszać kroków dowodu z założeniami (obserwacjami
+Urszuli), zmienne w krokach dowodu będę zapisywał jako a i b zamiast x i
+y. Opuszczę też kwantyfikator z przodu. A zatem celem jest:</p>
+<p>a ⚘ b = b ⚘ a</p>
+<p>Zacznijmy od trywialnie prawdziwego stwierdzenia:</p>
+<p>a = a</p>
+<p>Wykorzystajmy obserwację 1, żeby przepisać prawą stronę równania (x =
+a, y = b ⚘ a):</p>
+<p>a = (a ⚘ (b ⚘ a)) ⚘ (b ⚘ a)</p>
+<p>Wykorzystajmy obserwację 2, żeby przepisać lewą stronę równania (x =
+a, y = b):</p>
+<p>b ⚘ (b ⚘ a) = (a ⚘ (b ⚘ a)) ⚘ (b ⚘ a)</p>
+<p>Wykorzystajmy obserwację 2, żeby przepisać lewą stronę równania (x =
+b, y = a):</p>
+<p>(a ⚘ (a ⚘ b)) ⚘ (b ⚘ a) = (a ⚘ (b ⚘ a)) ⚘ (b ⚘ a)</p>
+<p>Równanie jest w postaci:</p>
+<p>(T ⚘ (a ⚘ b)) ⚘ U = (T ⚘ (b ⚘ a)) ⚘ U</p>
+<p>A zatem wystarczy, że od obu stron równania odetniemy nadmiarowe
+części (U, T) - ale najpierw trzeba udowodnić, że można tak zrobić. To
+nie jest zawsze możliwe. Na przykład, takie równanie jest prawdziwe w
+zbiorze liczb naturalnych ze zwyczajnym mnożeniem:</p>
+<p>1 ∙ 0 = 2 ∙ 0</p>
+<p>ale takie już nie:</p>
+<p>1 = 2</p>
+<p>Na szczęście, działanie ⚘ posiada taką własność. Potrzebujemy
+lematów:</p>
+<ol type="1">
+<li>∀ c, d, e : c ⚘ e = d ⚘ e ⇒ c = d</li>
+<li>∀ c, d, e : e ⚘ c = e ⚘ d ⇒ c = d</li>
+</ol>
+<p>Udowodnimy pierwszy z nich. Zaczynamy od założenia:</p>
+<p>c ⚘ e = d ⚘ e</p>
+<p>Jeśli do obu stron równania przyłożymy funkcję, to równanie dalej
+będzie prawdziwe:</p>
+<p>f(c ⚘ e) = f(d ⚘ e)</p>
+<p>Niech funkcję będzie: f(x) = x ⚘ e, wtedy otrzymamy:</p>
+<p>(c ⚘ e) ⚘ e = (d ⚘ e) ⚘ e</p>
+<p>Wykorzystujemy obserwację 1 do uproszczenia lewej (x = c, y = e) i
+prawej (x = d, y = e) strony równania:</p>
+<p>c = d</p>
+<p>co kończy dowód. Drugi lemat ma analogiczny dowód, pominiemy go.</p>
+<p>Wracając do gównego problemu:</p>
+<p>(a ⚘ (a ⚘ b)) ⚘ (b ⚘ a) = (a ⚘ (b ⚘ a)) ⚘ (b ⚘ a)</p>
+<p>Upraszczamy równanie używając lematu 1 (c = a ⚘ (a ⚘ b), d = a ⚘ (b ⚘
+a), e = b ⚘ a):</p>
+<p>(a ⚘ (a ⚘ b)) = (a ⚘ (b ⚘ a))</p>
+<p>A następnie kończymy dowód używając lematu 2 (c = a ⚘ b, d = b ⚘ a, e
+= a):</p>
+<p>a ⚘ b = b ⚘ a</p>
+<p>Quod erat demonstrandum.</p>
+<hr />
+<ul>
+<li><a
+href="https://www.codewars.com/kata/5c8f5d3a542ce10001c284c3">źródło</a></li>
+<li><a href="rozwiazanie.v">rozwiązanie w Coq</a></li>
+</ul>
+</body>
+</html>

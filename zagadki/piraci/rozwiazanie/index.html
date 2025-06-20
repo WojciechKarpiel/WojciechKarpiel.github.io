@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Rozwiązanie</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Rozwiązanie</h1>
+</header>
+<p>Najmłodszy bierze wszystko, wszyscy przeżyją. Rozwiązanie nie zależy
+ani od liczby piratów, ani od rozmiaru skarbu do podziału.</p>
+<ol type="1">
+<li>Gdyby przy życiu został tylko jeden pirat, to tenże pirat
+zaproponuje, aby całość skarbu trafiła do niego, i otrzyma 100%
+głosów.</li>
+<li>Gdyby zostało dwóch piratów, to najmłodszy również może może
+zaproponować, aby całość skarbu trafiła do niego. Nawet jeśli drugi
+pirat zagłosowałby na “nie”, to i tak głos najmłodszego stanowi 50%
+wszystkich głosów, a połowa głosów na “tak” wystarczy, żeby zaakceptować
+podział.</li>
+<li>Gdyby zostało trzech piratów, to najmłodszy również może
+zaaproponować, aby całość skarbu trafiła do niego. Najstarszy pirat
+zdaje sobie sprawę, że jeśli propozycja najmłodszego zostanie odrzucona,
+to dojdzie do sytuacji z poprzedniego punktu i nie dostanie ani monety.
+W związku z tym, najstarszy pirat, zagłosuje na “tak” (bo nie jest
+okrutny, a i tak nic nie dostanie), i propozycja najmłodszego uzyska co
+najmniej 2/3 głosów.</li>
+<li>i tak dalej…</li>
+</ol>
+<p>Za niedługo: formalny dowód poprawności rozwiązania.</p>
+<hr />
+<p><a href="../">powrót</a></p>
+</body>
+</html>

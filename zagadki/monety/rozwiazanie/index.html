@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Rozwiazanie</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Rozwiazanie</h1>
+</header>
+<p>Ponumerujmy monety od 1 do 12.</p>
+<ol type="1">
+<li><p>Ważymy [1,2,3,4,5,6] i [7,8,9,10,11,12]</p>
+<p>Zapali się jedna dioda, nazwijmy ją A. Dioda A nie może oznaczać “=”,
+ponieważ wśród ważonych monet znajduje się podróbka.</p>
+<p>Zdobyta informacja:</p>
+<ul>
+<li>A oznacza “&lt;” lub “&gt;”</li>
+</ul></li>
+<li><p>Ważymy [1, 2] i [11, 12]</p>
+<p>Jeżeli zapali się dioda A, to podrobiona moneta znajduje się wśród
+ważonych, ponieważ dioda A nie oznacza “=”. Zdobyta informacja:</p>
+<ul>
+<li>Podrobiona moneta jest wśród [1, 2, 11, 12].</li>
+</ul>
+<p>Jeśli zaświeci się inna dioda, nazwijmy ją B, to B musi oznaczać “=”.
+Dlaczego? Bo monety, które brały udział w obu ważeniach, w obu ważeniach
+były na tej samej szalce co przy pierwszym ważeniu. Na przykład: Moneta
+2 była na lewej szalce w obu ważeniach. Jeśli moneta 2 była lżejsza niż
+pozostałe, to przy pierwszym ważeniu zaświeciła się dioda “&lt;”. Przy
+drugim ważeniu też musiała zaświecić się dioda “&lt;”, ponieważ lżejsza
+moneta dalej jest na lewej szalce. Zdobyte informacje:</p>
+<ul>
+<li>Dioda B oznacza “=”</li>
+<li>Podrobiona moneta jest wśród [3, 4, 5, 6, 7, 8, 9, 10]</li>
+</ul>
+<p>Dalej rozważamy oba przypadki</p>
+<ol type="1">
+<li><p>Gdy zaświeciła się dioda A, ważymy [1] i [11]</p>
+<p>Jeśli zaświeciła się dioda A, to:</p>
+<ul>
+<li>podrobiona moneta jest wśród [1, 11]</li>
+</ul>
+<p>W przeciwnym wypadku musiała zaświecić się dioda B oznaczająca
+równość (rozumowanie j/w), i wtedy;</p>
+<ul>
+<li>podrobiona moneta jest wśród [2, 12]</li>
+</ul>
+<p>Zostało ostatnie ważenie:</p>
+<ol type="1">
+<li><p>Jeśli zaświeciła się dioda A, ważymy [1] i [2]</p>
+<p>Jeśli dalej świeci się dioda A, to 1 jest podrobioną monetą, w
+przeciwym wypadku 11</p></li>
+<li><p>Jeśli zaświeciła się dioda B, też ważymy [1] i [2]</p>
+<p>Jeśli dalej świeci się dioda B, to 12 jest podrobioną monetą, w
+przeciwnym wypadku 2</p></li>
+</ol></li>
+<li><p>Gdy zaświeciła się dioda B (oznaczająca “=”), ważymy [3, 4, 7] i
+[5, 6, 8]</p>
+<p>Do tej pory wiemy, że dioda A oznacza “&lt;” lub “&gt;”, a dioda B
+oznacza “=”. Kluczowe w tym ważeniu jest to, że monety 5, 6 i 7 są na
+innych szalkach niż przy pierwszym ważeniu, więc jeśli któraś z nich
+jest podrobiona, to powinna się zaświecić dioda oznaczająca nierówność w
+drugą stronę niż A.</p>
+<p>Jeśli zaświeci się dioda B oznaczająca “=”, to zdobywamy
+informację:</p>
+<ul>
+<li>podrobiona moneta jest wśród [9, 10]</li>
+</ul>
+<p>Jeśli zaświeci się dioda A, to znaczy, że podrobiona moneta znajduje
+się na tej samej szalce co w poprzednich ważeniach. Zdobywamy
+informację:</p>
+<ul>
+<li>podrobiona moneta znajduje się wśród [3, 4, 8],</li>
+</ul>
+<p>Jeśli zaświeci się dioda C, to ona musi oznaczać “&lt;” lub “&gt;”,
+ale nie to samo co A. Podrobiona moneta musi się znajdować na innej
+szalce niż w poprzednich ważeniach. Zdobywamy informację:</p>
+<ul>
+<li>podrobiona moneta znajduje się wśród [5, 6, 7]</li>
+</ul>
+<p>Zostało ostatnie ważenie:</p>
+<ol type="1">
+<li><p>Gdy zaświeciła się dioda B, to ważymy [1] i [9]</p>
+<p>Jeśli zaświeci się dioda B oznaczająca “=”, to 10 jest podrobioną
+monetą, w przeciwnym wypadku 9.</p></li>
+<li><p>Gdy zaświeciła się dioda A, to ważymy [2] i [3]</p>
+<p>Moneta 2 jest na tej samej szalce co w poprzednich ważeniach, a
+moneta 3 jest na innej szalce niż była</p>
+<ul>
+<li>Jeśli zaświeci się dioda B, to podrobioną monetą jest 8</li>
+<li>Jeśli zaświeci się dioda A, to podrobioną monetą jest 2</li>
+<li>Jeśli zaświeci się dioda C, to podrobioną monetą jest 3</li>
+</ul></li>
+<li><p>Gdy zaświeciła się dioda C, to ważymy [5] i [6]</p>
+<p>Moneta 5 jest na tej samej szalce co przy pierwszym ważeniu, a moneta
+6 na innej niż była przy pierwszym ważeniu</p>
+<ul>
+<li>Jeśli zaświeci się dioda B, to podrobioną monetą jest 7</li>
+<li>Jeśli zaświeci się dioda A, to podrobioną monetą jest 5</li>
+<li>Jeśli zaświeci się dioda C, to podrobioną monetą jest 6</li>
+</ul></li>
+</ol></li>
+</ol></li>
+</ol>
+<hr />
+<p><a
+href="https://puzzling.stackexchange.com/questions/112907/12-coins-problem-but-you-cant-understand-the-scale">źródło</a></p>
+<p><a href="../">powrót</a></p>
+</body>
+</html>

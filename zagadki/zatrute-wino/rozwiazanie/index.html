@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Rozwiązanie</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Rozwiązanie</h1>
+</header>
+<ol type="1">
+<li>Ponumerować sługi</li>
+<li>Ponumerować beczki i na każdej beczce napisać jej numerek zapisany w
+systemie dwójkowym</li>
+<li>Kazać każdemu ze sług pić z tych beczek, gdzie na pozycji
+odpowiadającej numerkowi sługi znajduje się “1” w zapisie dwójkowym
+numeru beczki</li>
+<li>Numerki sług, którzy umrą wskażą, na których pozycjach w zapisie
+dwójkowym numeru zatrutej beczki znajduje się “1”</li>
+</ol>
+<h2 id="przykład">Przykład:</h2>
+<p>Beczka o numerze 723 będzie miała napisane “1011010011”. A zatem z
+tej beczki będą pili słudzy o numerach 1, 2, 5, 7, 8, 10.</p>
+<pre><code> 1 0 1 1 0 1 0 0 1 1
+ ^   ^ ^   ^     ^ ^
+10   8 7   5     2 1</code></pre>
+<p>Jeśli umrą właśnie ci słudzy, to znaczy, że beczka 723 była zatruta,
+gdyż jest jedyną beczką, z której pili tylko oni i nikt inny.</p>
+<h2 id="uwagi">Uwagi</h2>
+<p>Rozwiązanie działało by nawet przy większej liczbie beczek, aż do
+1024 (2<sup>10</sup>). W ogólności można znaleźć zatrutą beczkę wśród
+2<sup>N</sup> beczek poświęcając co najwyżej N sług.</p>
+</body>
+</html>
