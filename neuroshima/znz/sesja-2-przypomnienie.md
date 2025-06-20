@@ -26,6 +26,8 @@ Kopalnia Farsona okazała się starą kopalnią odkrywkową. Napawała was groz�
 
 W środku zastaliście równie przerażający co niesamowity widok - wielkie pomieszczenie, na środku którego znajdowała się wielka... maszyna? Plątanina kabli, płyt drukowanych, diód i metalowej obudowy, sięgająca do kolan tworzyła jakby podest na środku pomieszczenia. Pośrodku maszyny było krzesło, na którym siedział człowiek, z kablami, przewodami i różnymi czujnikami makabrycznie powciskanymi w jego ciało. Wydawał się... żywy? Niewiele myśląc, skróciliście jego cierpienia. Wtem okazało się, że jesteście otoczeni. Lukasowi, dzięki brawurowej jeździe motocyklem udało się uciec na zewnątrz, reszta z was została zapędzona do magazynu, skąd mogliście uciekać jedynie do ciemnego tunelu. Mimo kiepskiej sytuacji, daliście w pewien sposób popalić swoim wrogom, zadając im większe straty, niż powinni byli w takiej sytuacji ponieść. Wasi przeciwnicy zrezygnowali z bezpośredniego natarcia i użyli jakiegoś gazu bojowego, który sprawił, że odpłynęliście. Tymczasem Lukas przygotowywał się, aby ponownie zajrzeć do środka.
 
+![Maszyna-tron](https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg1NGY4NWZkM2Q4ODE5MThlYzM5M2Y0MjlmOWFhNjM6ZmlsZV8wMDAwMDAwMDZhM2M2MjQ2OWE1YTIxMWE5YzljOTI5ZCIsInRzIjoiNDg2MjIxIiwicCI6InB5aSIsInNpZyI6IjU0YTQ1MDkzNGE3OTA3YTRjOTdhZGU4NzZkNmU2YjNjNmJkZGI3ZTE0ZWZlYTdkNjA3MzA4ZWFlZWQ3ZDE1NjQiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==)
+
 ---
 
 [powrót](./)
